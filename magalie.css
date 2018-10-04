@@ -11,11 +11,50 @@ height: auto;
 
 }
 #case1 {
-  background-image: url(asset/img/sushi1.png);
+  background-image: url(asset/img/1maki.png);
+  background-repeat: no-repeat;
+}
+
+#case2 {
+  background-image: url(asset/img/2classique.png);
+}
+#case3 {
+  background-image: url(asset/img/3california.png);
+}
+
+#case4 {
+  background-image: url(asset/img/4saumon.png);
+}
+#case5 {
+  background-image: url(asset/img/5duo.png);
+}
+#case6 {
+  background-image: url(asset/img/6duo.png);
+}
+#case7 {
+  background-image: url(asset/img/7masago.png);
+}
+#case8 {
+  background-image: url(asset/img/8ume.png);
+}
+#case9 {
+  background-image: url(asset/img/9bara.png);
+}
+#case10 {
+  background-image: url(asset/img/10nara.png);
+}
+#case11 {
+  background-image: url(asset/img/11sakura.png);
+}
+#case12 {
+  background-image: url(asset/img/12raviolis.png);
 }
 
 .column {
   height: 250px;
+  /* border-style: solid;
+  border-width: 3px;
+  border-color: #ff6957; */
 }
 
  .overlay {
@@ -37,7 +76,7 @@ height: auto;
 
 .text {
   text-align: center;
-  line-height: 25px;
+  line-height: 30px;
   white-space: nowrap;
   color: #dddddd;
   position: absolute;
@@ -52,6 +91,7 @@ height: auto;
   width: 40%;
   height: 1px;
   background-color: white;
+  margin-bottom: 20px;
   }
 
   .title {
