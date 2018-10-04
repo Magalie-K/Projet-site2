@@ -1,42 +1,153 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 
-    <title>HANAMI SUSHI</title>
-    <link rel="stylesheet" href="asset/css/main.css">
-  </head>
-  <body>
-    <header class="container-fluid">
-      <div class="row">
-        navbar
+  <title>HANAMI SUSHI</title>
+  <link rel="stylesheet" href="asset/css/main.css">
+  <link rel="stylesheet" href="asset/css/florent.css">
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      navbar
+    </div>
+  </header>
+  <main class="container-fluid">
+    <div class="row" id="presentation">
+      <div class="col-xl-8 offset-xl-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="asset/img/image-a1.jpg" alt="image1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bienvenue sur le site de hanami sushi bar.</h5>
+                <!-- <p>truc truc truc</p> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="asset/img/image-a2.jpg" alt="image2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Dégustez notre cuisine sur place ou à emporter.</h5>
+                <!-- <p>truc truc truc</p> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="asset/img/image-a1.jpg" alt="image3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Retrouvez nos spécialités réalisées avec des produits de première fraicheur.</h5>
+                <!-- <p>truc truc truc</p> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="asset/img/image-a1.jpg" alt="image3">
+              <div class="carousel-caption d-none d-md-block">
+                 <h5>D'origine japonaise, notre chef sushi travail dans le repect des traditions.</h5>
+                <!-- <p>truc truc truc</p> -->
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-    </header>
-    <main class="container-fluid">
-      <div class="row" id="presentation">
-        Header carousel
-      </div>
-      <div class="row" id="grand-menu">
-        Grand menu
-      </div>
-      <div class="row" id="petit-menu">
-        Petit menu
-      </div>
-      <div class="row" id="commande">
-        Commande
-      </div>
-    </main>
-    <footer class="container-fluid">
-      <div class="row">FOOTER</div>
-    </footer>
+    </div>
+    <div class="row" id="grand-menu">
+      Grand menu
+    </div>
+    <div class="row" id="petit-menu">
+      Petit menu
+    </div>
+    <div class="row" id="commande">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+
+      <form class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
+        <div class="form-group">
+          <label for="Nom">Nom</label>
+          <input type="text" name="nom" class="form-control" id="Nom" placeholder="Entrer votre nom" />
+        </div>
+        <div class="form-group">
+          <label for="Prenom">Prénom</label>
+          <input type="text" name="prenom" class="form-control" id="Prenom" placeholder="Entrer votre Prénom" />
+        </div>
+        <div class="form-group">
+          <label for="tel">Téléphone</label>
+          <input type="number" name="tel" class="form-control" id="tel" placeholder="Entrer votre numéro de Téléphone" />
+        </div>
+        <div class="form-group">
+          <label for="Description">Description de votre commande: </label>
+          <textarea name="description" class="form-control" id="Description" rows="3"></textarea>
+        </div>
+        <div class="form-group row p-3">
+          <label for="heures" class="col-3 col-form-label">Heure</label>
+          <select class="form-control col-3" id="heures">
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+          </select>
+          <label for="minute" class="col-3 col-form-label">Minute</label>
+          <select class="form-control col-3" id="minute">
+            <option>00</option>
+            <option>15</option>
+            <option>30</option>
+            <option>45</option>
+          </select>
+        </div>
+        <div class="form-group row">
+          <button type="submit" class="btn btn-primary ml-auto">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="container-fluid">
+    <div class="row justify-content-md-center">
+
+
+          <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+            <ul id="horaires">Horaires d'ouverture
+              <li><span>Lundi</span> 11H30 - 20H30</li>
+              <li><span>Mardi</span> 11H30 - 20H30</li>
+              <li><span>Mercredi</span> 11H30 - 20H30</li>
+              <li><span>Jeudi</span> 11H30 - 20H30</li>
+              <li><span>Vendredi</span> 11H30 - 20H30</li>
+              <li><span>Samedi</span> fermé</li>
+              <li><span>Dimanche</span> fermé</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 p-5">
+            <p>HAMAMI SUSHI</p>
+            <p>
+              153 Quai George V,<br />
+              76600 Le Havre<br />
+              02 35 42 39 33
+            </p>
+          </div>
+      <div class="col-12 col-xl-6">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4358.690575736468!2d0.11511868106856916!3d49.49030734167904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02f1cec67ac8d%3A0x12b8fbeb99e4bda!2s153+Quai+George+V%2C+76600+Le+Havre!5e0!3m2!1sfr!2sfr!4v1538655694750" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
