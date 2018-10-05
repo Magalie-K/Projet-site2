@@ -1,4 +1,4 @@
-  
+
 footer iframe{
   width: 100%;
   height: 100%;
@@ -22,8 +22,8 @@ footer ul li{
 }
 
 #presentation img{
-  width: 100%;
-  max-height: 300px;;
+  width: 150%;
+  max-height: 400px;;
 }
 
 #carouselExampleControls h5,
@@ -41,6 +41,12 @@ footer ul li{
 .carousel-caption {
     bottom:auto;
     top: 20px;
+}
+
+h5{
+    font-family: "armata";
+    font-size : 40px;
+    color: #f2f2f2;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: black;
