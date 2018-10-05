@@ -1,53 +1,70 @@
 /* MENU !!!!! */
 
-.contain-icon {
-height: auto;
-}
-
-.image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
 #case1 {
-  background-image: url(../img/1maki.png);
+  background-image: url(../img/sushi1.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
-
 #case2 {
-  background-image: url(../img/2classique.png);
+  background-image: url(../img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case3 {
-  background-image: url(../img/3california.png);
+  background-image: url(../img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #case4 {
-  background-image: url(../img/4saumon.png);
+  background-image: url(../img/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case5 {
-  background-image: url(../img/5duo.png);
+  background-image: url(../img/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case6 {
-  background-image: url(../img/6duo.png);
+  background-image: url(../img/6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case7 {
-  background-image: url(../img/7masago.png);
+  background-image: url(../img/7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case8 {
-  background-image: url(../img/8ume.png);
+  background-image: url(../img/8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case9 {
-  background-image: url(../img/9bara.png);
+  background-image: url(../img/9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case10 {
-  background-image: url(../img/10nara.png);
+  background-image: url(../img/10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case11 {
-  background-image: url(../img/11sakura.png);
+  background-image: url(../img/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #case12 {
-  background-image: url(../img/12raviolis.png);
+  background-image: url(../img/12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  width: 1000px;
+  background-color:  #f2f2f2;
 }
 
 .column {
@@ -71,7 +88,6 @@ height: auto;
 
 .column:hover .overlay {
   height: 100%;
-
 }
 
 .text {
@@ -85,6 +101,7 @@ height: auto;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  font-family: "armata";
 }
 
 .overlay .text hr {
@@ -96,5 +113,7 @@ height: auto;
 
   .title {
     margin-top: 30px;
+    font-family: "armata";
+    text-align: center;
   }
 /* FIN MENU !!! */
