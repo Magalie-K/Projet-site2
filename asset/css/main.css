@@ -1,3 +1,9 @@
 .row > div, .container-fluid{
-  border: 2px solid #F94;
+  /* border: 2px solid #F94; */
+}
+
+body{
+  font-family: 'armata';
+  background-color: #F2F2F2;
+  scroll-behavior: smooth;
 }
