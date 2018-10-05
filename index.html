@@ -219,55 +219,66 @@
       <!-- FIN PETIT MENU -->
     </div>
     <div class="row" id="commande">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="separator"></div>
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="col-12">Commandez vos plats à emporter</h2>
+        </div>
+        <div class="row">
+          <form class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
+            <div class="form-group">
+              <label for="Nom">Nom</label>
+              <input type="text" name="nom" class="form-control" id="Nom" placeholder="Entrer votre nom" />
+            </div>
+            <div class="form-group">
+              <label for="Prenom">Prénom</label>
+              <input type="text" name="prenom" class="form-control" id="Prenom" placeholder="Entrer votre Prénom" />
+            </div>
+            <div class="form-group">
+              <label for="tel">Téléphone</label>
+              <input type="number" name="tel" class="form-control" id="tel" placeholder="Entrer votre numéro de Téléphone" />
+            </div>
+            <div class="form-group">
+              <label for="Description">Description de votre commande: </label>
+              <textarea name="description"
+              class="form-control" id="Description"
+              placeholder="Indiquez les noms de vos menus et leurs quantités"
+              rows="3"></textarea>
+            </div>
+            <div class="form-group row p-3">
+              <p>A quelle heures souhaitez-vous récupérer votre commande ?</p>
+              <label for="heures" class="col-3 col-form-label">Heure</label>
+              <select class="form-control col-3" id="heures">
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+              </select>
+              <label for="minute" class="col-3 col-form-label">Minute</label>
+              <select class="form-control col-3" id="minute">
+                <option>00</option>
+                <option>15</option>
+                <option>30</option>
+                <option>45</option>
+              </select>
+            </div>
+            <div class="form-group row">
+              <button type="submit" class="btn btn-primary ml-auto">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
 
-      <h2>Commandez vos plats à emporter</h2>
-      <form class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
-        <div class="form-group">
-          <label for="Nom">Nom</label>
-          <input type="text" name="nom" class="form-control" id="Nom" placeholder="Entrer votre nom" />
-        </div>
-        <div class="form-group">
-          <label for="Prenom">Prénom</label>
-          <input type="text" name="prenom" class="form-control" id="Prenom" placeholder="Entrer votre Prénom" />
-        </div>
-        <div class="form-group">
-          <label for="tel">Téléphone</label>
-          <input type="number" name="tel" class="form-control" id="tel" placeholder="Entrer votre numéro de Téléphone" />
-        </div>
-        <div class="form-group">
-          <label for="Description">Description de votre commande: </label>
-          <textarea name="description"
-          class="form-control" id="Description"
-          placeholder="Indiquez les noms de vos menus et leurs quantités"
-          rows="3"></textarea>
-        </div>
-        <div class="form-group row p-3">
-          <p>A quelle heures souhaitez-vous récupérer votre commande ?</p>
-          <label for="heures" class="col-3 col-form-label">Heure</label>
-          <select class="form-control col-3" id="heures">
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-            <option value="17">17</option>
-            <option value="18">18</option>
-            <option value="19">19</option>
-            <option value="20">20</option>
-          </select>
-          <label for="minute" class="col-3 col-form-label">Minute</label>
-          <select class="form-control col-3" id="minute">
-            <option>00</option>
-            <option>15</option>
-            <option>30</option>
-            <option>45</option>
-          </select>
-        </div>
-        <div class="form-group row">
-          <button type="submit" class="btn btn-primary ml-auto">Submit</button>
-        </div>
-      </form>
     </div>
   </main>
   <footer class="container-fluid">

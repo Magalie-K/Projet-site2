@@ -1,4 +1,4 @@
-  
+
 footer iframe{
   width: 100%;
   height: 100%;
@@ -44,4 +44,18 @@ footer ul li{
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: black;
+}
+
+.separator{
+  width: 70%;
+  height: 5px;
+  background-color: #F94;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h2{
+  text-align: center;
 }
