@@ -11,43 +11,43 @@ height: auto;
 
 }
 #case1 {
-  background-image: url(asset/img/1maki.png);
+  background-image: url(../img/1maki.png);
   background-repeat: no-repeat;
 }
 
 #case2 {
-  background-image: url(asset/img/2classique.png);
+  background-image: url(../img/2classique.png);
 }
 #case3 {
-  background-image: url(asset/img/3california.png);
+  background-image: url(../img/3california.png);
 }
 
 #case4 {
-  background-image: url(asset/img/4saumon.png);
+  background-image: url(../img/4saumon.png);
 }
 #case5 {
-  background-image: url(asset/img/5duo.png);
+  background-image: url(../img/5duo.png);
 }
 #case6 {
-  background-image: url(asset/img/6duo.png);
+  background-image: url(../img/6duo.png);
 }
 #case7 {
-  background-image: url(asset/img/7masago.png);
+  background-image: url(../img/7masago.png);
 }
 #case8 {
-  background-image: url(asset/img/8ume.png);
+  background-image: url(../img/8ume.png);
 }
 #case9 {
-  background-image: url(asset/img/9bara.png);
+  background-image: url(../img/9bara.png);
 }
 #case10 {
-  background-image: url(asset/img/10nara.png);
+  background-image: url(../img/10nara.png);
 }
 #case11 {
-  background-image: url(asset/img/11sakura.png);
+  background-image: url(../img/11sakura.png);
 }
 #case12 {
-  background-image: url(asset/img/12raviolis.png);
+  background-image: url(../img/12raviolis.png);
 }
 
 .column {
