@@ -22,3 +22,74 @@
    color: #ff6957;
    font-weight: bold;
 }
+
+/**css footer**/
+
+footer iframe{
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  display: block;
+  position: relative;
+
+}
+
+footer #horaires span{
+  display: inline-block;
+  width: 100px;
+}
+
+footer ul{
+  list-style-type: none;
+  /* padding-top: 10px; */
+  min-width: 300px;
+
+}
+footer ul li {
+  padding-left: 10px;
+  font-family: 'Armata', sans-serif;
+
+
+}
+footer {
+background-color: #323232;
+}
+
+.horaires {
+  font-family: 'Armata', sans-serif;
+  color: #dddddd;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.horaires p {
+  color: #ff6957;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 1.1rem;
+}
+
+.adresse p {
+  font-family: 'Armata', sans-serif;
+  color: #dddddd;
+  font-size: 1.2rem;
+  line-height: 3rem;
+ }
+ .adresse.p-5 {
+    padding-left: 5rem !important;
+}
+
+.adresse p:nth-child(1) {
+  color: #ff6957;
+  font-weight: bold;
+}
+
+.logoy {
+  color: #dddddd;
+}
+.logoy:hover {
+  color: #ff6957;
+}
+.footbord {
+  border-top: 5px solid #ff6957;
+}
