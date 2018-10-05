@@ -220,7 +220,7 @@
     </div>
     <div class="row" id="commande">
 
-
+      <h2>Commandez vos plats à emporter</h2>
       <form class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
         <div class="form-group">
           <label for="Nom">Nom</label>
@@ -236,9 +236,13 @@
         </div>
         <div class="form-group">
           <label for="Description">Description de votre commande: </label>
-          <textarea name="description" class="form-control" id="Description" rows="3"></textarea>
+          <textarea name="description"
+          class="form-control" id="Description"
+          placeholder="Indiquez les noms de vos menus et leurs quantités"
+          rows="3"></textarea>
         </div>
         <div class="form-group row p-3">
+          <p>A quelle heures souhaitez-vous récupérer votre commande ?</p>
           <label for="heures" class="col-3 col-form-label">Heure</label>
           <select class="form-control col-3" id="heures">
             <option value="11">11</option>
